@@ -287,7 +287,7 @@ function LoginPage() {
                   />
                 </div>
                 <p className="-mt-2 text-xs text-muted-foreground">
-                  {role === 'sheikh' ? t.demoHintPassword : t.yourPassword}
+                  {t.yourPassword}
                 </p>
 
                 <Button type="submit" size="lg" className="h-12 text-base" disabled={!canSubmit || submitting}>
