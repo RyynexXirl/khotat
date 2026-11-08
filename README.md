@@ -1,4 +1,4 @@
-# رياض الحفظ — Quran Memorization Management
+ — Quran Memorization Management
 
 A mobile-first, fully Arabic (RTL) web app for running Quran memorization circles (حلقات) at a high school. The Sheikh oversees all groups, supervisors grade students daily, and students follow their 30-day plan and see their debts. All data lives in a shared Netlify Database, so everyone sees the same information.
 
