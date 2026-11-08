@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "khotat",
+  "compatibility_date": "2025-09-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "main": "src/server.ts",
+  "observability": { "enabled": true },
+  "triggers": {
+    // Daily at 13:00 UTC = 4:00 PM Asia/Riyadh: turns ungraded days into debts
+    "crons": ["0 13 * * *"]
+  }
+  // Secret (not stored here): DATABASE_URL = your Neon Postgres connection string
+}
