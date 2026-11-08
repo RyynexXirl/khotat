@@ -56,7 +56,7 @@ const ar = {
   username: 'اسم المستخدم',
   password: 'كلمة المرور',
   yourPassword: 'كلمة المرور الخاصة بك',
-  demoHintPassword: 'للتجربة: كلمة المرور 1234',
+
   login: 'دخول',
   loggingIn: 'جارٍ الدخول…',
   welcome: (n: string) => `أهلاً ${n}`,
